@@ -1,0 +1,129 @@
+body {
+  background-color: rgb(66, 81, 104);
+}
+
+
+#winner{
+    top: 100px;
+    left:500px;
+    font-size: 50px;
+    font-family: cursive;
+    position: absolute;
+  }
+  .button{
+    border-radius:10px;
+    top:300px;
+    left:200px;
+    width:80px;
+    height:30px;
+    color:blue;
+    font-family: cursive;
+    font-weight: bold;
+    position: absolute;
+  }
+  .button:hover{
+    opacity: 70%;
+    left:200px;
+    width:85px;
+    color: white;
+    background-color: blue;
+  }
+  .auto-player{
+    border-radius:10px;
+    top:360px;
+    left:200px;
+    width:90px;
+    height:50px;
+    color:blue;
+    font-family: cursive;
+    font-weight: bold;
+    position: absolute;
+  }
+  .auto-player:hover{
+    opacity: 70%;
+    right:45px;
+    width:90px;
+    color: white;
+    background-color: blue;
+  }
+  .type1{
+    border-style:none solid solid none;
+    border-width: 5px;
+    border-color: black;
+    width:80px;
+    height:100px;
+    top:200px;
+    left:540px;
+    padding-left:25px;
+    padding-bottom:10px;
+    font-size:80px;
+    font-family:cursive;
+    position: absolute;
+    display:inline-block;
+  }
+  .type1:hover{
+    background-color:white;
+    opacity: 70%;
+  }
+  .type2{
+    border-style:none none solid none;
+    border-width: 5px;
+    border-color: blue;
+    width:100px;
+    height:100px;
+    padding-left:5px;
+    padding-bottom:10px;
+    font-size:80px;
+    font-family:cursive;
+    top:200px;
+    left:760px;
+    position: absolute;
+    display:inline-block;
+  }
+  .type2:hover{
+    background-color:white;
+    opacity: 90%;
+  }
+  .type3{
+    border-style:none solid none none;
+    border-width: 5px;
+    border-color:black;
+    width:95px;
+    height:100px;
+    padding-left:14px;
+    margin-right:10px;
+    padding-bottom:10px;
+    font-size:80px;
+    font-family:cursive;
+    top:430px;
+    left:540px;
+    position: absolute;
+    display:inline-block;
+  }
+  .type3:hover{
+    background-color:white;
+    opacity: 90%;
+  }
+  .type4{
+    width:90px;
+    height:98px;
+    border-style:none;
+    font-size:80px;
+    font-family:cursive;
+    padding-left:15px;
+    padding-bottom:10px;
+    top:428px;
+    left:760px;
+    position: absolute;
+    display:inline-block;
+  }
+  .type4:hover{
+    background-color:white;
+    opacity: 90%;
+  }
+  .player{
+    font-size:80px;
+    font-family:cursive;
+    position: absolute;
+ 
+  } 
